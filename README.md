@@ -7,9 +7,12 @@ Pull the entire repository on your system and then follow the steps below:
 4. Install the following dependencies on after activating the virtual environment:
    > pip instll chardet   
    > pip install django   
-   > pip install django-cors-headers   
+   > pip install django-cors-headers
+   > pip install django-dotenv   
    > pip install djangorestframework   
    > pip install djangorestframework-simplejwt   
    > Install the Sql clent for the RDBMS you are using. Ex: **pip install mysqlclient** or **pip install mssql-django**   
    > pip install django-jazzmin   
+   > pip install pillow
+5. 
 Create Database in MySQL or SqlServer. Go to 
