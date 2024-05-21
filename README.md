@@ -30,7 +30,7 @@ Pull the entire repository on your system and then follow the steps below:
 <br>
 <br>
 <br>
-## Frontend using React.<br>
-### (You must have **NodeJS* installed and **npm** added in your environment variables path)   
+##  Frontend using React.<br>
+###  (You must have **NodeJS* installed and **npm** added in your environment variables path)   
 1. Open terminal and navigate to the **[Full-Stack-Motor-Shield->React  - Frontend]** folder.
 2. 
