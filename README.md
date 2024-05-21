@@ -1,7 +1,10 @@
 # Motor Shield (Vehicle Insurance Company)
 Pull the entire repository on your system and then follow the steps below:
+<br>
+<br>
 ## Backend using Django.
 ### (You must have **Python** installed and added in your environment variables path)
+<br>
 1. Open terminal and navigate to the **[Full-Stack-Motor-Shield->Django - Backend]** folder.
 2. Create a virtual environment in this directory by typing in cmd : **[virtualenv name_of_env]**
 3. Activate the Virtual Environment using **[name_of_env\Scripts\activate]**
@@ -29,8 +32,8 @@ Pull the entire repository on your system and then follow the steps below:
 14. Thats it your backend server is now up and running. Now lets move to the frontend part.
 <br>
 <br>
+## Frontend using React.<br>
+### (You must have **NodeJS* installed and **npm** added in your environment variables path)   
 <br>
-##  Frontend using React.<br>
-###  (You must have **NodeJS* installed and **npm** added in your environment variables path)   
 1. Open terminal and navigate to the **[Full-Stack-Motor-Shield->React  - Frontend]** folder.
 2. 
