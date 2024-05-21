@@ -1,7 +1,7 @@
 import React from 'react'
 import './SingleInputForm.css'
 
-const SingleInputForm = ({onFormSubmit, heading, type, id, name, value, handleInputChange, messages, buttonName}) => {
+const SingleInputForm = ({onFormSubmit, heading, type, id, name, placeholder, value, handleInputChange, messages, buttonName}) => {
   return (
     <div className='input-page'>
       <form className="input-form" onSubmit={onFormSubmit}>
@@ -10,7 +10,7 @@ const SingleInputForm = ({onFormSubmit, heading, type, id, name, value, handleIn
           type={type}
           id={id}
           name={name}
-          placeholder="Enter Vehicle Number"
+          placeholder={placeholder}
           value={value}
           onChange={handleInputChange}
           required

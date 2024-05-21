@@ -42,6 +42,7 @@ const TrackClaim = () => {
       type={"text"}
       id={"vehicle_number"}
       name={"vehicle_number"}
+      placeholder={"Enter the Vehicle Number"}
       value={vehicleNumber}
       handleInputChange={inputChangeHandler}
       messages={err}

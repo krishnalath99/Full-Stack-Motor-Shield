@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import './ForgotPassword.css'
 import { useNavigate } from 'react-router-dom'
 import SingleInputForm from '../../Pages/SingleInputForm/SingleInputForm'
 
@@ -39,6 +38,7 @@ const ForgorPassword = () => {
       type={"email"}
       id={"email"}
       name={"email"}
+      placeholder={"Enter your Registered Email"}
       value={email}
       handleInputChange={inputChangeHandler}
       messages={error}
