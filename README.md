@@ -16,7 +16,7 @@ Pull the entire repository on your system and then follow the steps below:
    > **pip install django-jazzmin**   
    > **pip install pillow**
 5. Create a Database in the SQL client that you installed in your environment.
-6. Go to **[Django - Backend->MotorShield->InsuranceProject->settings.py]** file. Scroll down this file and go to "DATABASEs" variable and change the ENGINE, NAME, HOST, USER, PASSWORD, and PORT according to the RDBMS you are using and your newly created database in that RDBMS.
+6. Go to **[Django - Backend->MotorShield->InsuranceProject->settings.py]** file. Scroll down this file and go to "DATABASES" variable and change the ENGINE, NAME, HOST, USER, PASSWORD, and PORT according to the RDBMS you are using and your newly created database in that RDBMS.
 7. Save Everything.
 8. Search and delete all the **pycache** and **Migrations** folders from the **MotorShield** directory and also its sub-directories.
 9. Now, navigate to the **MotorShield** directory (in **Django - Backend** folder) inside the terminal and make migrations to the RDBMS using the following commaands:
