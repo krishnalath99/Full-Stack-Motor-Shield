@@ -8,7 +8,7 @@ Pull the entire repository on your system and then follow the steps below:
 4. Install the following dependencies after activating the virtual environment:
    > **pip instll chardet**   
    > **pip install django**   
-   > **pip install django-cors-headers**
+   > **pip install django-cors-headers**   
    > **pip install django-dotenv**   
    > **pip install djangorestframework**   
    > **pip install djangorestframework-simplejwt**   
