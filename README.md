@@ -20,10 +20,10 @@ Pull the entire repository on your system and then follow the steps below:
 7. Save Everything.
 8. Search and delete all the **pycache** and **Migrations** folders from the **MotorShield** directory and also its sub-directories.
 9. Now, navigate to the **MotorShield** directory (in **Django - Backend** folder) inside the terminal and make migrations to the RDBMS using the following commaands:
-    > **[python manage.py makemigrations MotorInsuranceCompany]**
-    > **[python manage.py migrate]**
+    > **[python manage.py makemigrations MotorInsuranceCompany]**   
+    > **[python manage.py migrate]**   
 10. Create the super user to login to the admin panel using the command: **[python manage.py createsuperuser]** and enter all the details you want for admin login.
-11. Run the server using the command: **[python manage.py runserver]**. Go to the browser and search for this url **http://127.0.0.1:8000/admin/**
-12. Note: **The website that you see when you visit the url [http://127.0.0.1:8000/] was only created for testing purpose of the backend. Please refrain from using it or else the backend server might malfunction.
+11. Run the server using the command: **[python manage.py runserver]**. Go to the browser and search for this url http://127.0.0.1:8000/admin/
+12. Note: **The website that you see when you visit the url http://127.0.0.1:8000/ was only created for testing purpose of the backend. Please refrain from using it or else the backend server might malfunction.
 13. Login to te admin panel using the superuser details that you created. If everything goes well then you should see Users, Vehicles, Policy and Claims menu on the left side after logging in to admin panel.
 14. Thats it your backend server is now up and running. Now lets move to the frontend part.
