@@ -1,7 +1,7 @@
 # Motor Shield (Vehicle Insurance Company)
 Pull the entire repository on your system and then follow the steps below:
 ## Backend using Django.
-### (You should have django installed and added in your environment variables path)
+### (You must have python installed and added in your environment variables path)
 1. Open terminal and navigate to the **[Full-Stack-Motor-Shield->Django - Backend]** folder.
 2. Create a virtual environment in this directory by typing in cmd : **[virtualenv name_of_env]**
 3. Activate the Virtual Environment using **[name_of_env\Scripts\activate]**
@@ -18,7 +18,7 @@ Pull the entire repository on your system and then follow the steps below:
 5. Create a Database in the SQL client that you installed in your environment.
 6. Go to **[Django - Backend->MotorShield->InsuranceProject->settings.py]** file. Scroll down this file and go to "DATABASEs" variable and change the ENGINE, NAME, HOST, USER, PASSWORD, and PORT according to the RDBMS you are using and your newly created database in that RDBMS.
 7. Save Everything.
-8. Search and delete all the **pycache** and **Migrations** folders from the **MotorShield** directory.
+8. Search and delete all the **pycache** and **Migrations** folders from the **MotorShield** directory and also its sub-directories.
 9. Now, navigate to the **MotorShield** directory (in **Django - Backend** folder) inside the terminal and make migrations to the RDBMS using the following commaands:
     > **[python manage.py makemigrations MotorInsuranceCompany]**
     > **[python manage.py migrate]**
