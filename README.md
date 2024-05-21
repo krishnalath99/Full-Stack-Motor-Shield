@@ -29,14 +29,14 @@ Pull the entire repository on your system and then follow the steps below:
 14. Thats it your backend server is now up and running. Now lets move to the frontend part.
 15. Open terminal and navigate to the **[Full-Stack-Motor-Shield->React  - Frontend->MotorShield]** folder.
 16. Now install all the dependencies using the following commands :
-    > **npm install axios**
-    > **npm install prop-types**
-    > **npm install react**
-    > **npm install react-dom**
+    > **npm install axios**   
+    > **npm install prop-types**   
+    > **npm install react**    
+    > **npm install react-dom**   
     > **npm install react-router**   
-    > **npm install react-router-dom**
-    > **npm install react-scroll**
-    > **npm install react-toastify**
+    > **npm install react-router-dom**   
+    > **npm install react-scroll**   
+    > **npm install react-toastify**   
 17. Now run the React Frontend server using the command : **[npm run server]**. Since I have used **[vite]** to create this react app.
 18. Go to the browser and visit the url http://localhost:5173/. If everything goes well you will have the React frontend website on your browser.
 19. You can SignUp to create a new account, then login, apply for a policy by adding a vehicle, make payment for policy upon background verification done in the admin panel file for a claim and do many such things what you do on a Vehicle Insurance Company's website.
