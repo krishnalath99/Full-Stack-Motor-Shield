@@ -7,15 +7,15 @@ Pull the entire repository on your system and then follow the steps below:
 3. Activate the Virtual Environment using **[name_of_env\Scripts\activate]**
 4. Install the following dependencies after activating the virtual environment:
 ```sh
-   > **pip instll chardet**   
-   > **pip install django**   
-   > **pip install django-cors-headers**   
-   > **pip install django-dotenv**   
-   > **pip install djangorestframework**   
-   > **pip install djangorestframework-simplejwt**   
-   > Install the SQL clent for the RDBMS you are using. Ex: **pip install mysqlclient** or **pip install mssql-django**   
-   > **pip install django-jazzmin**   
-   > **pip install pillow**
+pip instll chardet   
+pip install django   
+pip install django-cors-headers   
+pip install django-dotenv   
+pip install djangorestframework   
+pip install djangorestframework-simplejwt   
+> Install the SQL clent for the RDBMS you are using. Ex: **pip install mysqlclient** or **pip install mssql-django   
+pip install django-jazzmin   
+pip install pillow
 ```
 6. Create a Database in the SQL client that you installed in your environment.
 7. Go to **[Django - Backend->MotorShield->InsuranceProject->settings.py]** file. Scroll down this file and go to "DATABASES" variable and change the ENGINE, NAME, HOST, USER, PASSWORD, and PORT according to the RDBMS you are using and your newly created database in that RDBMS.
